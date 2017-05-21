@@ -6,7 +6,8 @@ Yeoman generated fountain webapp
 - `npm install --global yo` to install yeoman globally on local machine.
 - `npm install --global gulp-cli bower generator-fountain-webapp` to install gulp-cli, bower, and the fountain webapp generator.
 - `yo fountain-webapp` will guide you to the yeoman interface to create your webapp structure now.
-
+- to debug `gulp serve` issue, ran the `npm outdated` command to check if there were missing packages.
+- had to run `npm install` to install missing packages even though yeoman generated the template.
 
 ## Git cloning this repo
 - git clone and run `npm install`, followed by `bower install`
@@ -20,4 +21,5 @@ Yeoman generated fountain webapp
 - Would you like a router? Angular UI Router
 
 ## Running Things
-- you should be able to run `npm run serve` and it should launch
+- `gulp` runs all the gulpfile commands.
+- you should be able to run `gulp serve` and it should run on a localhost, where you can open a browser to the specfied port.
