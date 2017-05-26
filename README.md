@@ -2,7 +2,7 @@
 Yeoman generated fountain webapp
 
 ## Initial setup for this repo from scratch
-- make sure you have node and npm installed.
+- make sure you have a node version >= 6.0.0 and npm version >= 3.0.0 installed.
 - `npm install --global yo` to install yeoman globally on local machine.
 - `npm install --global gulp-cli bower generator-fountain-webapp` to install gulp-cli, bower, and the fountain webapp generator.
 - `yo fountain-webapp` will guide you to the yeoman interface to create your webapp structure now.
@@ -23,3 +23,7 @@ Yeoman generated fountain webapp
 ## Running Things
 - `gulp` runs all the gulpfile commands.
 - you should be able to run `gulp serve` and it should run on a localhost, where you can open a browser to the specfied port.
+
+## For testing
+- `npm test` runs the unit tests based off karma and jasmine.
+TODO: there's a failing test case currently.
